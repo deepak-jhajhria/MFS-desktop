@@ -41,6 +41,9 @@
 .lightGrey{
     color: var(--light-grey) !important;
 }
+.bg-lightGrey{
+    background: var(--light-grey) !important;
+}
 .links{
     color: var(--links) !important;
 }
