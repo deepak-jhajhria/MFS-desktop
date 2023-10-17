@@ -20,4 +20,24 @@ navbtn.addEventListener("click", function () {
     span2.classList.remove("span5");
     span3.classList.remove("span6");
 })
- 
+ // preloder
+setTimeout(() => {
+    document.getElementById("preloder").classList.add("d-none");
+    document.body.classList.remove("overflow-hidden");
+  }, 2000);
+  
+  // backtotop
+  
+  function backtop() {
+    window.scrollTo(0, 0);
+  }
+  
+  window.addEventListener("scroll", function () {
+    const mybackto = document.getElementById("backtops");
+    if (window.scrollY > 500) {
+      mybackto.style.display = "block";
+    } else {
+      mybackto.style.display = "none";
+    }
+  });
+  

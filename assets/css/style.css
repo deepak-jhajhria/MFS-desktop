@@ -12,6 +12,23 @@
 .container {
   max-width: 1600px !important;
 }
+
+/* backtotop */
+
+.backto-top {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+/* preloader  */
+.load-take {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border-top: 3px solid var(--Dark-Purple);
+  animation: routate 1s ease-in-out infinite;
+}
 /* header  */
 .bgNav {
   background: linear-gradient(90deg, #3b2e58 0%, #8661c5 100%);
