@@ -3,23 +3,25 @@
   font-family: "Segoe UI";
   src: url(./segoe-ui-4-cufonfonts-webfont/Segoe\ UI.woff);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
+
 .container {
   max-width: 1600px !important;
 }
 
 /* backtotop */
-
 .backto-top {
   width: 35px;
   height: 35px;
   cursor: pointer;
 }
+
 /* preloader  */
 .load-take {
   display: block;
@@ -29,8 +31,8 @@
   border-top: 3px solid var(--Dark-Purple);
   animation: routate 1s ease-in-out infinite;
 }
-/* ellipse  */
 
+/* ellipse  */
 .ellipseLeft-1{
   top: 35%;
 }
@@ -40,6 +42,7 @@
 .ellipseRight-1{
   top: 21%;
 }
+
 /* header  */
 .bgNav {
   background: linear-gradient(90deg, #3b2e58 0%, #8661c5 100%);
@@ -99,8 +102,8 @@
 .navLinks:hover {
   -webkit-text-stroke: 0.2px white !important;
 }
-/* menu icon  */
 
+/* menu icon  */
 .menu span {
   display: flex;
   width: 26px;
@@ -136,6 +139,7 @@
 .max-800 {
   max-width: 800px;
 }
+
 /* section 3 */
 .max-900 {
   max-width: 900px;
@@ -146,6 +150,7 @@
 .hubBtn {
   padding: 14px 42px !important;
 }
+
 /* section 4  */
 .fhCard {
   width: 100% !important;
@@ -161,6 +166,7 @@
   padding-top: 33px !important;
   padding-bottom: 33px !important;
 }
+
 /* section 5 */
 .workshopCard {
   max-width: 220px !important;
@@ -191,10 +197,19 @@
 }
 
 /* section 6 */
-
 .sec6Card{
 border: 3px solid var(--Purple, #8661C5) !important;
 }
+
+/* footer  */
+.svgIcon a svg path{
+  fill: black;
+}
+.svgIcon a:hover svg path {
+  fill: var(--Purple);
+  transform: translateY(-2%);
+}
+
 @media (min-width: 576px) {
   .startup-Card {
     max-width: 409px;
