@@ -149,6 +149,12 @@
 }
 .hubBtn {
   padding: 14px 42px !important;
+  border: 2px solid var(--light-Purple) !important;
+  transition: 0.5s !important;
+}
+.hubBtn:hover{
+ background: transparent !important;
+ color: var(--Dark-Purple) !important;
 }
 
 /* section 4  */
