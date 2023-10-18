@@ -29,6 +29,17 @@
   border-top: 3px solid var(--Dark-Purple);
   animation: routate 1s ease-in-out infinite;
 }
+/* ellipse  */
+
+.ellipseLeft-1{
+  top: 35%;
+}
+.ellipseLeft-2{
+  top: 61.70%;
+}
+.ellipseRight-1{
+  top: 21%;
+}
 /* header  */
 .bgNav {
   background: linear-gradient(90deg, #3b2e58 0%, #8661c5 100%);
